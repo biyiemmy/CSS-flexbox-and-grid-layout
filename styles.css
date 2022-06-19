@@ -122,13 +122,28 @@ button:hover {
 }
 
 
-@media (max-screen:950px) {
+@media (max-width:950px) {
     .items {
         flex-direction: column;
         padding: 5rem 0;
     }
 
-    .items {
+    .item {
         min-width: 22rem;
+    }
+
+    .first-item {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 30px;
+    }
+
+    .second-item {
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 30px;
+    }
+
+    .third-item {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 30px;
     }
 }
